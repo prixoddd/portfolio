@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './DistantWork.module.css'
+import e from '../common/styles/Elements.module.css'
 import styleContainer from '../common/styles/Container.module.css';
 
 const DistantWork = () => {
@@ -7,7 +8,7 @@ const DistantWork = () => {
         <div className={s.distantWorkBlock}>
             <div className={`${styleContainer.container} ${s.distantWorkContainer}`}>
                 <h4>I am looking for a job with the possibility of working from home</h4>
-                <button>Hire me</button>
+                <button className={e.elementButton}>Hire me</button>
             </div>
         </div>
     );

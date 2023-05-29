@@ -16,9 +16,8 @@
 
 .imageAndButton button{
 
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    /*border: none;*/
+    /*cursor: pointer;*/
 
 
     position: absolute;
