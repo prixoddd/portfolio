@@ -12,8 +12,8 @@
 }
 
 .footerBar {
-    height: 100px;
-    width: 800px;
+    height: 20%;
+    width: 90%;
     border: 1px solid;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,6 @@
 
 .cube {
     height: 100%;
-    width: 14.28%;
+    width: 20%;
     background-color: #969595;
 }

@@ -1,5 +1,9 @@
+.mainTitle{
+    background-color: #cbcbcb;
+}
+
 .skillsBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f59898;
 
 }
@@ -8,10 +12,6 @@
 
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.title {
-    background-color: deepskyblue;
 }
 
 .skills {

@@ -11,7 +11,7 @@ const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.imageAndButton}>
-                <img src="https://miro.medium.com/v2/resize:fit:0/0*KIKnUvzdIkp5zcDJ" alt=""/>
+                {/*<img src="https://miro.medium.com/v2/resize:fit:0/0*KIKnUvzdIkp5zcDJ" alt=""/>*/}
                 <button className={e.elementButton}>
                     Смотреть
                 </button>

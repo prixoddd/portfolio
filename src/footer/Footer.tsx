@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className={`${styleContainer.container} ${s.footerContainer}`}>
                     <h3>Nikita Derjugin</h3>
                     <div className={s.footerBar}>
-                        <div className={s.cube}>d</div>
+                        <div className={s.cube}></div>
                         <div className={s.cube}></div>
                         <div className={s.cube}></div>
                         <div className={s.cube}></div>
