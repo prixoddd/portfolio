@@ -1,0 +1,53 @@
+@import "../../common/styles/sass/variables"
+
+.project
+  width: 300px
+
+.imageAndButton
+  position: relative
+  background-image: url("https://miro.medium.com/v2/resize:fit:0/0*KIKnUvzdIkp5zcDJ")
+  background-size: cover
+  background-position: center
+  height: 200px
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 20px
+
+  button
+    position: relative
+    z-index: 1
+
+    &:hover
+      text-decoration: underline
+
+  &::before
+    position: absolute
+    content: ""
+    background-color: black
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    opacity: 0.4
+    border-radius: 20px
+
+.projectInfo
+  padding: 25px 20px
+  text-align: left
+
+  .projTitle
+    font-weight: 400
+    font-size: 16px
+    padding: 5px
+    color: $textColorSecondary
+    letter-spacing: 1px
+    margin: 0 0 5px
+    line-height: 1.2
+
+  .projDescription
+    color: $textColorSecondary
+    font-size: 14px
+    font-weight: 400
+    line-height: 1.8

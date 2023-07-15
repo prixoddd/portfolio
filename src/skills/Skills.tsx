@@ -1,7 +1,11 @@
 import React from 'react';
-import s from './Skills.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import s from './Skills.module.sass'
+import styleContainer from '../common/styles/Container.module.sass'
 import Skill from './skill/Skill';
+import Title from '../common/components/title/Title';
+import reactLogo from '../icons/react-16-svgrepo-com.svg'
+import jsLogo from '../icons/javascript-16-svgrepo-com.svg'
+import cssLogo from '../icons/css-16-svgrepo-com.svg'
 
 
 const Skills = () => {
@@ -11,11 +15,11 @@ const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.mainTitle}>Skills</h2>
+                <Title title={'Skills'}/>
                 <div className={s.skills}>
-                    <Skill title='React' description={loremone}/>
-                    <Skill title='Js' description={loremtwo}/>
-                    <Skill title='Css' description={loremthree}/>
+                    <Skill title='React' description={loremone} svgImage={reactLogo}/>
+                    <Skill title='Js' description={loremtwo} svgImage={jsLogo}/>
+                    <Skill title='Css' description={loremthree} svgImage={cssLogo}/>
                 </div>
             </div>
         </div>
