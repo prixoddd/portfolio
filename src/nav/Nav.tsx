@@ -1,5 +1,5 @@
-import React from 'react';
-import s from './Nav.module.sass'
+import React from "react"
+import s from "./Nav.module.sass"
 
 const Nav = () => {
     return (
@@ -9,7 +9,7 @@ const Nav = () => {
             <a href="#">Projects</a>
             <a href="#">Contacts</a>
         </div>
-    );
-};
+    )
+}
 
-export default Nav;
+export default Nav

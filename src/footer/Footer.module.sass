@@ -1,10 +1,13 @@
 @import "src/common/styles/sass/variables.sass"
+@import '../common/styles/sass/mixins'
+
 
 .footerBlock
   //margin-top: 68px
   height: 50vh
 
 .footerContainer
+  @include container
   display: flex
   flex-direction: column
   justify-content: space-around
