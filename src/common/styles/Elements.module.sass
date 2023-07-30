@@ -1,3 +1,5 @@
+@import "src/common/styles/sass/variables.sass"
+
 .elementButton
   background-color: #969595
   border: none
@@ -10,22 +12,58 @@
   cursor: pointer
 
 .mainButton
-  background: #28e98c
-  color: #000000
+  background: none
+  color: $accentColor
   text-align: center
   padding: 11px 58px 10px 58px
   align-items: center
   border-radius: 30px
   justify-content: center
   text-transform: uppercase
-  font-size: 16px
+  font-size: 18px
   transition: 0.3s
   cursor: pointer
-  border: 2px solid #28e98c
-
+  //border: 2px solid $accentColor
+  position: relative
+  z-index: 0
+  display: flex
+  border: none
+  &::after
+    content: ''
+    position: absolute
+    width: 30%
+    height: 5px
+    background-color: $accentColor
+    bottom: 0
+    z-index: -1
+    transition: all 0.2s ease-in-out
+    border: 2px solid $accentColor
+    border-radius: 30px
   &:hover
-    background-color: transparent
-    color: #28e98c
+    //background-color: transparent
+    color: #ffffff
+    &:after
+      width: 100%
+      height: 100%
+      background-color: transparent
+      transition: all 0.3s ease-in-out 0s
 
 
 
+//.mainButton
+//  background: #28e98c
+//  color: #000000
+//  text-align: center
+//  padding: 11px 58px 10px 58px
+//  align-items: center
+//  border-radius: 30px
+//  justify-content: center
+//  text-transform: uppercase
+//  font-size: 16px
+//  transition: 0.3s
+//  cursor: pointer
+//  border: 2px solid #28e98c
+//
+//  &:hover
+//    background-color: transparent
+//    color: #28e98c

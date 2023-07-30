@@ -3,14 +3,16 @@
 
 
 .footerBlock
-  //margin-top: 68px
-  height: 50vh
+  margin-top: 68px
+  //height: 50vh
+  //border: 1px solid #BDF598FF
 
 .footerContainer
   @include container
   display: flex
   flex-direction: column
   justify-content: space-around
+  //border: 1px solid #BDF598FF
   h3
     font-size: 20px
     font-weight: 300
@@ -20,8 +22,29 @@
   width: 90%
   display: flex
   justify-content: space-between
+  //border: 1px solid #BDF598FF
 
 .cube
   height: 100%
   width: 20%
   background-color: $textColorSecondary
+  //border: 1px solid #BDF598FF
+
+.socialIcons
+  display: flex
+  height: 50px
+  width: 300px
+  justify-content: space-evenly
+  //border: 1px solid #BDF598FF
+
+.socialIcon
+  //&:hover
+  //  transition: all 0.3s ease-in-out 0s
+  //  img
+  //    width: 30px
+  //    height: 30px
+  //    transition: all 0.3s ease-in-out 0.3s
+  img
+    width: 50px
+    height: 50px
+

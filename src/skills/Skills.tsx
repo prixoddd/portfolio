@@ -2,9 +2,9 @@ import React from "react"
 import s from "./Skills.module.sass"
 import Skill from "./skill/Skill"
 import Title from "../common/components/title/Title"
-import reactLogo from "../icons/react-16-svgrepo-com.svg"
-import jsLogo from "../icons/javascript-16-svgrepo-com.svg"
-import cssLogo from "../icons/css-16-svgrepo-com.svg"
+import reactLogo from "icons/reactLogo.svg"
+import jsLogo from "icons/javascriptLogo.svg"
+import cssLogo from "icons/cssLogo.svg"
 
 const Skills = () => {
     const loremone =
