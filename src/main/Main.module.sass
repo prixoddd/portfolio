@@ -2,19 +2,32 @@
 @import '../common/styles/sass/mixins'
 
 .mainBlock
+  min-height: calc(100vh - 40px)
   //min-height: 100vh
+  display: flex
+  justify-content: center
+  flex-direction: column
   //border: 1px solid #BDF598FF
 
+
 .particles
-  position: relative
-  top: 0
-  left: 0
-  bottom: 0
-  right: 0
-  opacity: 0.3
+  position: fixed
+  z-index: -1
+  //right: 0
+  //left: 0
+  //bottom: 0
+  background-size: cover
+  background-position: 50% 50%
+  background-repeat: no-repeat
+
 
 .greeting
   width: 300px
+  display: flex
+  flex-direction: column
+  align-items: center
+  @media screen and (max-width: 749px)
+    margin-bottom: 50px
 
   .nikita
     color: $accentColor
@@ -52,10 +65,18 @@
 
 .container
   @include container
+  height: 500px
   justify-content: space-evenly
   //border: 1px solid $accentColor
   border-radius: 30px
 
-  @media screen and (max-width: 752px)
+
+  @media screen and (max-width: 749px)
     justify-content: center
+
+.typingText
+  width: 180px
+  height: 20px
+  display: flex
+  justify-content: left
 

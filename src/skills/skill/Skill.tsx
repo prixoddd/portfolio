@@ -1,5 +1,5 @@
-import React from "react"
-import s from "./Skill.module.sass"
+import React from 'react'
+import s from './Skill.module.sass'
 
 type SkillPropsType = {
     title: string

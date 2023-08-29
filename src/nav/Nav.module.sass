@@ -1,12 +1,17 @@
 @import "src/common/styles/sass/variables.sass"
 
 .nav
+  position: fixed
+  z-index: 1
   width: 300px
   display: flex
   justify-content: space-between
-  //margin-right: 100px
+  margin-right: 100px
+
   a
     color: $textColorMain
     cursor: pointer
     text-decoration: none
+  .active
+    color: red
 
