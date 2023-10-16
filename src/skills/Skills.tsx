@@ -2,9 +2,13 @@ import React from 'react'
 import s from './Skills.module.sass'
 import Skill from './skill/Skill'
 import Title from '../common/components/title/Title'
-import reactLogo from 'icons/reactLogo.svg'
-import jsLogo from 'icons/javascriptLogo.svg'
-import cssLogo from 'icons/cssLogo.svg'
+import reactLogo from 'img/icons/reactLogo.svg'
+import jsLogo from 'img/icons/javascriptLogo.svg'
+import cssLogo from 'img/icons/cssLogo.svg'
+import reduxLogo from 'img/icons/reduxLogo.svg'
+import restApi from 'img/icons/restApiLogo.svg'
+import htmlLogo from 'img/icons/htmlLogo.svg'
+import typescriptLogo from 'img/icons/typescriptLogo.svg'
 import { Zoom } from 'react-awesome-reveal'
 
 const Skills = () => {
@@ -21,8 +25,12 @@ const Skills = () => {
                     <Title title={'Skills'} />
                     <div className={s.skills}>
                         <Skill title="React" description={loremone} svgImage={reactLogo} />
-                        <Skill title="Js" description={loremtwo} svgImage={jsLogo} />
-                        <Skill title="Css" description={loremthree} svgImage={cssLogo} />
+                        <Skill title="Redux/toolkit" description={loremone} svgImage={reduxLogo} />
+                        <Skill title="Typescript" description={loremone} svgImage={typescriptLogo} />
+                        <Skill title="Javascript" description={loremtwo} svgImage={jsLogo} />
+                        <Skill title="Rest API" description={loremthree} svgImage={restApi} />
+                        <Skill title="CSS/SASS" description={loremthree} svgImage={cssLogo} />
+                        <Skill title="HTML" description={loremthree} svgImage={htmlLogo} />
                     </div>
                 </div>
             </Zoom>

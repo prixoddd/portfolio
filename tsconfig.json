@@ -2,6 +2,9 @@
     "compilerOptions": {
         "target": "es5",
         "baseUrl": "src",
+        "paths": {
+            "icons/*": ["relative/path/to/icons/*"]
+        },
         "lib": ["dom", "dom.iterable", "esnext"],
         "allowJs": true,
         "skipLibCheck": true,

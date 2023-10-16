@@ -1,16 +1,16 @@
-import React from "react"
-import s from "./Footer.module.sass"
-import Title from "common/components/title/Title"
-import facebookLogo from "../icons/facebookLogo.svg"
-import instagramLogo from "../icons/instagraLogo.svg"
-import linkedinLogo from "../icons/linkedinLogo.svg"
-import telegramLogo from "../icons/telegramLogo.svg"
+import React from 'react'
+import s from './Footer.module.sass'
+import Title from 'common/components/title/Title'
+import facebookLogo from '../img/icons/facebookLogo.svg'
+import instagramLogo from '../img/icons/instagraLogo.svg'
+import linkedinLogo from '../img/icons/linkedinLogo.svg'
+import telegramLogo from '../img/icons/telegramLogo.svg'
 
 const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={s.footerContainer}>
-                <Title title={"Nikita Derjugin"} />
+                <Title title={'Nikita Derjugin'} />
                 <div className={s.socialIcons}>
                     <div className={s.socialIcon}>
                         <a href="">

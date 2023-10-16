@@ -1,11 +1,12 @@
-import React from "react"
-import s from "./Project.module.sass"
-import e from "../../common/styles/Elements.module.sass"
+import React from 'react'
+import s from './Project.module.sass'
+import e from '../../common/styles/Elements.module.sass'
 
 type ProjectPropsType = {
     projTitle: string
     projDescription: string
     backgroundImage: string
+    src: string
 }
 
 const Project = (props: ProjectPropsType) => {
@@ -16,7 +17,13 @@ const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.imageAndButton} style={divStyle}>
-                <button className={e.elementButton}>
+                <button
+                    className={e.elementButton}
+                    onClick={(e) => {
+                        e.preventDefault()
+                        window.location.href = props.src
+                    }}
+                >
                     <span>Смотреть</span>
                 </button>
             </div>
