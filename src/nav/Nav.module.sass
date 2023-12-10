@@ -1,12 +1,18 @@
 @import "src/common/styles/sass/variables.sass"
 
+
 .nav
   position: fixed
   z-index: 1
   width: 300px
   display: flex
   justify-content: space-between
-  margin-right: 100px
+  margin-right: 9px
+  background-color: rgba(102, 102, 102, 0.5)
+  border: 10px rgba(102, 102, 102, 0) solid
+  border-top-left-radius: 20px
+  border-bottom-left-radius: 20px
+
 
 
 
@@ -15,5 +21,5 @@
     cursor: pointer
     text-decoration: none
   .active
-    color: red
+    color: $accentColor
 
