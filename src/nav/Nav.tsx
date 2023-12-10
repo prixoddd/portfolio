@@ -4,9 +4,7 @@ import { Link } from 'react-scroll'
 
 const Nav = () => {
     return (
-
             <div className={s.nav}>
-                {/*<a onClick={() => scroll.scrollTo(100)}>Main</a>*/}
                 <Link activeClass={s.active} to="main_block" spy={true} smooth={true} offset={0} duration={500}>
                     Main
                 </Link>
