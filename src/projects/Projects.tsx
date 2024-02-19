@@ -27,6 +27,8 @@ const Projects = () => {
                             projDescription="Todolist is a straightforward and user-friendly task management application designed to assist you in organizing your daily activities. With its ability to create to-do lists, it facilitates better organization and efficiency."
                             src="https://prixoddd.github.io/todolist"
                         />
+                    </div>
+                    <div className={s.projects1}>
                         <Project
                             backgroundImage={socialNetwork}
                             projTitle="Social Network"
