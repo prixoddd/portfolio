@@ -24,7 +24,7 @@ const Projects = () => {
                         <Project
                             backgroundImage={todoList}
                             projTitle="Todo App"
-                            projDescription="My social network is an app which we can scale and which can handle millions of data records."
+                            projDescription="Todolist is a straightforward and user-friendly task management application designed to assist you in organizing your daily activities. With its ability to create to-do lists, it facilitates better organization and efficiency."
                             src="https://prixoddd.github.io/todolist"
                         />
                         <Project
@@ -36,7 +36,7 @@ const Projects = () => {
                         <Project
                             backgroundImage={counterBackground}
                             projTitle="Counter"
-                            projDescription="My counter is functional"
+                            projDescription="Introducing my simple yet versatile counter app! With user-friendly interface, you can easily set minimum and maximum values and start counting with ease."
                             src="https://prixoddd.github.io/counter"
                         />
                     </div>
