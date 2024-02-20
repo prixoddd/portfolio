@@ -7,7 +7,7 @@ import { Fade } from 'react-awesome-reveal'
 const Contacts = () => {
     return (
         <div id="contacts_block" className={s.contactsBlock}>
-            <Fade delay={200} duration={1500} direction={'up'}>
+            <Fade delay={200}>
                 <div className={`${s.contactsContainer}`}>
                     <Title title={'Contacts'} />
                     <form action="" className={s.contactsForm}>

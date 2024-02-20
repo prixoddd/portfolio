@@ -24,7 +24,7 @@ const Projects = () => {
                             src="https://kn-hm.vercel.app/"
                         />
                     </Zoom>
-                    <Zoom delay={400} duration={1500}>
+                    <Zoom delay={350} duration={1500}>
                         <Project
                             backgroundImage={todoList}
                             projTitle="Todo App"
@@ -34,7 +34,7 @@ const Projects = () => {
                     </Zoom>
                 </div>
                 <div className={s.projects1}>
-                    <Zoom delay={500} duration={1500}>
+                    <Zoom delay={400} duration={1500}>
                         <Project
                             backgroundImage={socialNetwork}
                             projTitle="Social Network"
@@ -42,7 +42,7 @@ const Projects = () => {
                             src="https://prixoddd.github.io/samurai-way-main"
                         />
                     </Zoom>
-                    <Zoom delay={600} duration={1500}>
+                    <Zoom delay={450} duration={1500}>
                         <Project
                             backgroundImage={counterBackground}
                             projTitle="Counter"
