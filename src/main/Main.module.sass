@@ -2,7 +2,7 @@
 @import '../common/styles/sass/mixins'
 
 .mainBlock
-  min-height: calc(100vh - 40px)
+  min-height: 100vh
   //min-height: 100vh
   display: flex
   justify-content: center
@@ -55,6 +55,10 @@
   border-radius: 30px
   background-size: cover
   position: relative
+
+  @media screen and (max-width: 400px)
+    width: 260px
+    height: 260px
   &:before
     content: ''
     position: absolute
