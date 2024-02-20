@@ -2,12 +2,12 @@ import React from 'react'
 import s from './Contacts.module.sass'
 import e from 'common/styles/Elements.module.sass'
 import Title from 'common/components/title/Title'
-import { Zoom } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 
 const Contacts = () => {
     return (
         <div id="contacts_block" className={s.contactsBlock}>
-            <Zoom>
+            <Fade delay={200} duration={1500} direction={'up'}>
                 <div className={`${s.contactsContainer}`}>
                     <Title title={'Contacts'} />
                     <form action="" className={s.contactsForm}>
@@ -18,7 +18,7 @@ const Contacts = () => {
 
                     <button className={e.mainButton}>Send</button>
                 </div>
-            </Zoom>
+            </Fade>
         </div>
     )
 }
