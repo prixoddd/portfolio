@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <div id="projects_block" className={`${s.projectsBlock}`}>
             <div className={`${s.projectsContainer}`}>
-                <Fade delay={200} fraction={0.1} direction={'up'}>
+                <Fade triggerOnce delay={200} fraction={0.1} direction={'up'}>
                     <Title title={'My Projects'} />
                 </Fade>
                 <div className={s.projects}>
@@ -24,7 +24,7 @@ const Projects = () => {
                             src="https://kn-hm.vercel.app/"
                         />
                     </Zoom>
-                    <Zoom delay={400} duration={1500}>
+                    <Zoom delay={350} duration={1500}>
                         <Project
                             backgroundImage={todoList}
                             projTitle="Todo App"
@@ -34,7 +34,7 @@ const Projects = () => {
                     </Zoom>
                 </div>
                 <div className={s.projects1}>
-                    <Zoom delay={500} duration={1500}>
+                    <Zoom delay={400} duration={1500}>
                         <Project
                             backgroundImage={socialNetwork}
                             projTitle="Social Network"
@@ -42,7 +42,7 @@ const Projects = () => {
                             src="https://prixoddd.github.io/samurai-way-main"
                         />
                     </Zoom>
-                    <Zoom delay={600} duration={1500}>
+                    <Zoom delay={450} duration={1500}>
                         <Project
                             backgroundImage={counterBackground}
                             projTitle="Counter"

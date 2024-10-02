@@ -5,9 +5,11 @@ import facebookLogo from '../img/icons/facebookLogo.svg'
 import instagramLogo from '../img/icons/instagraLogo.svg'
 import linkedinLogo from '../img/icons/linkedinLogo.svg'
 import telegramLogo from '../img/icons/telegramLogo.svg'
+import { Fade } from 'react-awesome-reveal'
 
 const Footer = () => {
     return (
+        // <Fade delay={200} direction={'up'}>
         <div className={s.footerBlock}>
             <div className={s.footerContainer}>
                 <Title title={'Nikita Derjugin'} />
@@ -36,6 +38,7 @@ const Footer = () => {
                 <h3>All Rights Reserved</h3>
             </div>
         </div>
+        // </Fade>
     )
 }
 
