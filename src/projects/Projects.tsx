@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <div id="projects_block" className={`${s.projectsBlock}`}>
             <div className={`${s.projectsContainer}`}>
-                <Fade delay={200} fraction={0.1} direction={'up'}>
+                <Fade triggerOnce delay={200} fraction={0.1} direction={'up'}>
                     <Title title={'My Projects'} />
                 </Fade>
                 <div className={s.projects}>

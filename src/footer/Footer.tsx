@@ -9,36 +9,36 @@ import { Fade } from 'react-awesome-reveal'
 
 const Footer = () => {
     return (
-        <Fade delay={200} direction={'up'}>
-            <div className={s.footerBlock}>
-                <div className={s.footerContainer}>
-                    <Title title={'Nikita Derjugin'} />
-                    <div className={s.socialIcons}>
-                        <div className={s.socialIcon}>
-                            <a href="">
-                                <img src={facebookLogo} alt="" />
-                            </a>
-                        </div>
-                        <div className={s.socialIcon}>
-                            <a href="">
-                                <img src={instagramLogo} alt="" />
-                            </a>
-                        </div>
-                        <div className={s.socialIcon}>
-                            <a href="">
-                                <img src={linkedinLogo} alt="" />
-                            </a>
-                        </div>
-                        <div className={s.socialIcon}>
-                            <a href="">
-                                <img src={telegramLogo} alt="" />
-                            </a>
-                        </div>
+        // <Fade delay={200} direction={'up'}>
+        <div className={s.footerBlock}>
+            <div className={s.footerContainer}>
+                <Title title={'Nikita Derjugin'} />
+                <div className={s.socialIcons}>
+                    <div className={s.socialIcon}>
+                        <a href="">
+                            <img src={facebookLogo} alt="" />
+                        </a>
                     </div>
-                    <h3>All Rights Reserved</h3>
+                    <div className={s.socialIcon}>
+                        <a href="">
+                            <img src={instagramLogo} alt="" />
+                        </a>
+                    </div>
+                    <div className={s.socialIcon}>
+                        <a href="">
+                            <img src={linkedinLogo} alt="" />
+                        </a>
+                    </div>
+                    <div className={s.socialIcon}>
+                        <a href="">
+                            <img src={telegramLogo} alt="" />
+                        </a>
+                    </div>
                 </div>
+                <h3>All Rights Reserved</h3>
             </div>
-        </Fade>
+        </div>
+        // </Fade>
     )
 }
 

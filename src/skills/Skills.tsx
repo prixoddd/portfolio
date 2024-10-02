@@ -21,7 +21,7 @@ const Skills = () => {
     return (
         <div id="skills_block" className={s.skillsBlock}>
             <div className={`${s.skillsContainer}`}>
-                <Fade delay={200} fraction={0.1}>
+                <Fade triggerOnce delay={200} fraction={0.1}>
                     <Title title={'Skills'} />
                 </Fade>
                 <div className={s.skills}>
